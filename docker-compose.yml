@@ -83,6 +83,14 @@ services:
       - logstash
     restart: on-failure
 
+  logging_server:
+    build: logging_server/
+    ports:
+      - "5605:5000"
+    networks:
+      - elk
+    restart: on-failure
+
 networks:
   elk:
     driver: bridge

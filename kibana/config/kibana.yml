@@ -1,7 +1,7 @@
 elasticsearch.hosts:
 - http://elasticsearch:9200
-elasticsearch.password: owxkjG0uKX6Jj2Yq
-elasticsearch.username: kibana_system
+elasticsearch.password: changeme
+elasticsearch.username: elastic
 monitoring.ui.container.elasticsearch.enabled: true
 server.host: 0.0.0.0
 server.name: kibana
